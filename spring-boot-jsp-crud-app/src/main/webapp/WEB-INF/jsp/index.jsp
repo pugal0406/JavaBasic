@@ -7,17 +7,28 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring Boot JSP CRUD</title>
+<title>Employee Management</title>
 <link href="../../webjars/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
  <script src="../../webjars/bootstrap/4.0.0/js/bootstrap.min.js"></script>
  <script src="../../webjars/jquery/3.0.0/js/jquery.min.js"></script>
 </head>
+<style>
+#log{
+margin-top: 1%;
+}
+</style>
 <body>
 
  <div class="container">
-  <h2>Welcome to Spring Boot JSP CRUD Application for Employee</h2>
-  <spring:url value="/employee/list" var="listURL" />
-  <a class="btn btn-primary" href="${listURL}" role="button" >View All Employee</a>
+  <h2>Welcome to Employee Management</h2>
+  <spring:url value="/admin/inPage/" var="listURL" />
+  <a class="btn btn-primary" href="${listURL}" role="button" >Sign Up</a>
+ </div> 
+
+<div class="container" id="log">
+  <spring:url value="/admin/emplogin" var="listURL" />
+  <a class="btn btn-primary" href="${listURL}" role="button" >Login</a>
+ </tr>
  </div>
 
 </body>

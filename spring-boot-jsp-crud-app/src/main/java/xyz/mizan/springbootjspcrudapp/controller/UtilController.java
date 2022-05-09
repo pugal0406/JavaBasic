@@ -19,6 +19,6 @@ public class UtilController {
 	public ModelAndView cancelInsertOrUpdate() {
 		//ModelAndView indexModel = new ModelAndView();
 		//indexModel.setViewName("index");
-		return new ModelAndView("redirect:/employee/list");
+		return new ModelAndView("redirect:/");
 	}
 }

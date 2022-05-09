@@ -1,17 +1,17 @@
 package xyz.mizan.springbootjspcrudapp.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import xyz.mizan.springbootjspcrudapp.entity.Employee;
-import xyz.mizan.springbootjspcrudapp.entity.EmployeeBO;
 
 
 public interface EmployeeService {
 
-	public Employee insertEmployee(EmployeeBO e);
+	public Employee insertEmployee(Employee e);
 	public Employee updateEmployee(int id,Employee e);
 	public Employee insertOrUpdateEmployee(Employee e);
-	public boolean deleteEmployee(int id);
+	public Employee deleteEmployee(int id);
 	
 	public List<Employee> selectEmployee();
 	public Employee selectEmployeeById(int id);
