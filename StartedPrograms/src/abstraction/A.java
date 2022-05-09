@@ -6,8 +6,6 @@ public abstract class A{
 	 public abstract void odd(); // public,protected,abstract key words only allowed
 	
 	 
-	 
-	 
 	 void load(){ // Definition method
 		System.out.println("parent abstract method");
 		
