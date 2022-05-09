@@ -5,6 +5,9 @@ public abstract class A{
 	 abstract void sum(); // declaration method
 	 public abstract void odd(); // public,protected,abstract key words only allowed
 	
+	 
+	 
+	 
 	 void load(){ // Definition method
 		System.out.println("parent abstract method");
 		
