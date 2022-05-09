@@ -10,7 +10,7 @@ public class AbstractName extends Abc implements C  {
 		ab.odd();
 		ab.show();
 		
-	}
+}
 	C c=new AbstractName();
 	int v=c.a;
 
