@@ -10,6 +10,10 @@ public class Person {
 	    private Gender gender;
 	    private int age;
 
+	    public Person() {
+	    	
+	    }
+	    
 	    public Person(String name, String email, Gender gender, int age)
 	    {
 	        super();
