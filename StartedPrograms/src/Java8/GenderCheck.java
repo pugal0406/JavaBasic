@@ -18,7 +18,6 @@ public class GenderCheck {
 	        personList.add(new Person("David","david@gmail.com",    Gender.MALE, 19));
 	        personList.add(new Person("Eric","eric@gmail.com", Gender.MALE, 26));
 	        Person pp=null;
-	        
 	        for(Person per:personList) {
 	        	pp=new Person();
 	        	pp.setName(per.getName());
