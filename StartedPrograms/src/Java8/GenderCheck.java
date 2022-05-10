@@ -20,7 +20,7 @@ public class GenderCheck {
 	        Person pp=null;
 	        
 	        for(Person per:personList) {
-//	        	pp=new Person();
+	        	pp=new Person();
 	        	pp.setName(per.getName());
 	        	pp.setEmail(per.getEmail());
 	        	pp.setAge(per.getAge());
