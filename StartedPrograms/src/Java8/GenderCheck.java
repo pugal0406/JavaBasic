@@ -10,6 +10,7 @@ public class GenderCheck {
 
 	 public static void main(String[] args)
 	    {
+		 
 	        List<Person> personList = new ArrayList<>();
 
 	        personList.add(new Person("Alice","alice@gmail.com",Gender.FEMALE, 20));
