@@ -10,7 +10,6 @@ public class GenderCheck {
 
 	 public static void main(String[] args)
 	    {
-		 
 	        List<Person> personList = new ArrayList<>();
 
 	        personList.add(new Person("Alice","alice@gmail.com",Gender.FEMALE, 20));
@@ -18,8 +17,23 @@ public class GenderCheck {
 	        personList.add(new Person("Carol","carol@gmail.com",Gender.FEMALE, 23));
 	        personList.add(new Person("David","david@gmail.com",    Gender.MALE, 19));
 	        personList.add(new Person("Eric","eric@gmail.com", Gender.MALE, 26));
+	        Person pp=null;
+	        for(Person per:personList) {
+//	        	pp=new Person();
+	        	pp.setName(per.getName());
+	        	pp.setEmail(per.getEmail());
+	        	pp.setAge(per.getAge());
+	        	pp.setGender(per.getGender());
+//	        	System.out.println("--------Filterd based on FEMALE--------"+pp.getName()+" "+pp.getAge()+" "+pp.getEmail()+" "+pp.getGender());
+	       
+	        }
+	        for(int i=0;i<personList.size();i++) {
+	        	
+	        	System.out.println("Name of List " + (i + 1) + ": "
+                        + personList.get(i));
+	        }
 	        
-	        System.out.println("--------Filterd based on FEMALE--------");
+	        
 	        
 	        /*
 	         * The filter() operation returns a new stream that consists elements
