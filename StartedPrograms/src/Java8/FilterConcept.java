@@ -18,9 +18,6 @@ public class FilterConcept{
 		Stream<String> stream = Stream.of("Geeks", "foR",
 										"GeEksQuiz", "GeeksforGeeks");
 
-		// Using Stream filter(Predicate predicate)
-		// to get a stream consisting of the
-		// elements ending with s
 		stream.filter(str -> str.endsWith("s")).collect(Collectors.toList())
 			.forEach(System.out::println);
 		
