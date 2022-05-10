@@ -24,7 +24,6 @@ public class GenderCheck {
 	        	pp.setEmail(per.getEmail());
 	        	pp.setAge(per.getAge());
 	        	pp.setGender(per.getGender());
-//	        	System.out.println("--------Filterd based on FEMALE--------"+pp.getName()+" "+pp.getAge()+" "+pp.getEmail()+" "+pp.getGender());
 	       
 	        }
 	        for(int i=0;i<personList.size();i++) {
