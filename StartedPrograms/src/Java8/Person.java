@@ -1,5 +1,4 @@
 package Java8;
-
 enum Gender
 {
     MALE, FEMALE
