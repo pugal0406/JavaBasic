@@ -14,7 +14,6 @@ public class FilterConcept{
 	// Driver code
 	public static void main(String[] args)
 	{
-
 		// Creating a Stream of Strings
 		Stream<String> stream = Stream.of("Geeks", "foR",
 										"GeEksQuiz", "GeeksforGeeks");

@@ -32,8 +32,21 @@ public class GenderCheck {
 	        	System.out.println("Name of List " + (i + 1) + ": "
                         + personList.get(i));
 	        }
-	        
-	        
+
+	        for(Person per:personList) {
+//	        	pp=new Person();
+	        	pp.setName(per.getName());
+	        	pp.setEmail(per.getEmail());
+	        	pp.setAge(per.getAge());
+	        	pp.setGender(per.getGender());
+//	        	System.out.println("--------Filterd based on FEMALE--------"+pp.getName()+" "+pp.getAge()+" "+pp.getEmail()+" "+pp.getGender());
+	       
+	        }
+	        for(int i=0;i<personList.size();i++) {
+	        	
+	        	System.out.println("Name of List " + (i + 1) + ": "
+                        + personList.get(i));
+	        }
 	        
 	        /*
 	         * The filter() operation returns a new stream that consists elements
