@@ -32,14 +32,6 @@ public class GenderCheck {
                         + personList.get(i));
 	        }
 	        
-	        
-	        /*
-	         * The filter() operation returns a new stream that consists elements
-	         * matching a given condition which is typically a boolean test in form
-	         * of a Lambda expression.
-	         * 
-	         * The following code lists only female persons:
-	         */
 	        personList.stream().filter(p -> p.getGender().equals(Gender.FEMALE))
 	                                                .forEach(System.out::println);
 	        
