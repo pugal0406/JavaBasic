@@ -12,6 +12,6 @@ public class Constract {
 		
 	}
 	Constract(int a,int b){
-		System.out.println("aaaaaaaaaaa");
+		System.out.println("bbbbbb");
 	}
 }
